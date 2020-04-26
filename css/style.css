@@ -90,6 +90,22 @@
     width: 100%;
     max-width: 100%;
 }
+.slider {
+    text-align: center;
+    opacity: 0.6;
+    color: #1E90FF;
+}
+.marquee{
+    text-align: center;
+    
+}
+.marquee > marquee{
+    width: 90%;
+    background-color:#1E90FF ;
+    color: green;
+    padding: 10px;
+}
+
 section{
     margin-top: 50px;
     text-align: center;
