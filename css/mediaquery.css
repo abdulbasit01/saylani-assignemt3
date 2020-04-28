@@ -61,8 +61,23 @@
     .nav2{
         display: none;
     }
-   
+    .main-box{
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: 100%;
+        background-color: #f5f5f5;
+    }
+    .main-box > .box {
+        min-width:40%;
+        width: 250px;
+        padding: 0px;
+        
+    }
+    .our-serves > h1 ,div{
+        font-size: 100%;
+    }
 }
+
 @media screen and (max-width: 400px) {
     .main{
         
@@ -70,5 +85,25 @@
         flex-direction: column;
         align-items: center;
     }
-    
+    .main-box > .box {
+        min-width:100%;
+        width: 200px;
+        padding: 0px;
+        
+    }
+    section{
+        margin-top: 50px;
+        text-align: center;
+        background-color: #f7f2f2;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+    section .content {
+        height: 400px;
+        margin-top: 20px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        width: inherit;
+    }
+   
  }
