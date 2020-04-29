@@ -184,10 +184,10 @@ section .content p{
     box-shadow: 5px 10px 10px #cecaca;
     margin: 10px;
     text-align: center;
-    
 }
 .misson-services{
     display: flex;
+    flex-direction: row;
     margin:20px
 }
 .misson-services .mission{
@@ -215,7 +215,8 @@ section .content p{
 .images-gallery{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+
 }
 .images-gallery img {
     min-width: 160px;
@@ -234,7 +235,7 @@ section .content p{
     transform: translate(-50%,50%);
     clear: both;
     color:#1E90FF;
-    opacity: 0.3;
+    opacity: 0.7;
     transition: ease-in 2s;
 }
 
