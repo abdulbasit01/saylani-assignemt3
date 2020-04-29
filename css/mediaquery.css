@@ -98,7 +98,13 @@
         height: 180px;
         transition: ease-in-out 2s;
     }
-    
+    .gallery > i {
+        position: relative;
+        left: 0%;
+        color:rgb(119, 56, 56) ;
+        transition: ease-in 2s;
+        opacity: 1;
+    }
 }
 
 @media screen and (max-width: 400px) {
