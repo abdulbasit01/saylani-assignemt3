@@ -247,3 +247,47 @@ section .content p{
 .gallery > i:hover{
     opacity: 1;
 }
+footer{
+    margin-top: 100px;
+    display: flex;
+    background-color: #1f1d1d;
+    justify-content:flex-start;
+    padding-top: 70px;
+    padding:20px ;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+}
+footer > div{
+    padding-right: 50px;
+    color: #fff;
+    text-align: left;
+}
+.section1 .section2 .section3 {
+    width: 33%;
+
+}
+.section1 {
+    padding: 20px 0px 0px 0px ;
+    margin:20px;
+    
+}
+.section3 > i{
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #000088;
+    background-color: #000088;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.section1{
+    flex: 3;
+}
+.section2{
+    flex: 2;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.section3{
+    flex: 3;
+}
