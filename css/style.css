@@ -209,7 +209,12 @@ section .content p{
 .mission-boxes{
     box-shadow: 1px 2px 4px #3f423f;
     margin: 20px;
-    width: 350px;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-evenly;
+    font-size: 20px;
 }
 
 .images-gallery{
