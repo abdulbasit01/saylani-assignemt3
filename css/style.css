@@ -58,8 +58,6 @@
 .section{
     display:flex;
     padding: 10px;
-    position: fixed;
-    top: 8%;
     background-color: lemonchiffon;
     width: 100%;
 
@@ -88,11 +86,7 @@
     border-radius:30px;
 
 }
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%
-}
+
 .slider img {
     width: 100%;
     max-width: 100%;
