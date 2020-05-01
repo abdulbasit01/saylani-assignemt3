@@ -32,9 +32,7 @@
     .nav1{
         display: inline-block;
     }
-    .nav2{
-        color: #1E90FF;
-    }
+    
     .nav3{
         max-width: 100%;
         display: flex;
@@ -59,7 +57,7 @@
         flex: 1;
     }
     .nav2{
-        display: none;
+        font-size: 90%;
     }
     .main-box{
         display: flex;
@@ -73,6 +71,7 @@
         padding: 0px;
         
     }
+
     .our-serves > h1 ,div{
         font-size: 100%;
     }
@@ -106,9 +105,16 @@
         transition: ease-in 2s;
         opacity: 1;
     }
+    footer{
+        display: flex;
+        flex-direction:column ;
+        flex-basis: 100%;
+    }
+    
+    
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 410px) {
     .main{
         
         display: flex;
@@ -140,14 +146,12 @@
         
     }
     footer > div {
-        width: 100%;
         margin-top: 20px;
     }
-    .section1 .section2 .section3 {
-        width: 100%;
-    
-    }
-    .section2 .section3 {
-        padding: 20px 0px 0px 0px ;
-    }
  }
+ @media screen and (max-width: 310px) {
+   body{
+       display: flex;
+       flex-direction:column;
+   }
+}

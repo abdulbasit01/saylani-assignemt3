@@ -58,10 +58,10 @@
 .section{
     display:flex;
     padding: 10px;
-    /* position: fixed;
-    top: 10%;
-    background-color: #dad2d2;
-    width: 100%; */
+    position: fixed;
+    top: 8%;
+    background-color: lemonchiffon;
+    width: 100%;
 
 }
 
@@ -88,13 +88,19 @@
     border-radius:30px;
 
 }
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
 .slider img {
     width: 100%;
     max-width: 100%;
+    margin-top: 70px;
 }
 .slider {
     text-align: center;
-    opacity: 0.6;
+    opacity: 0.9;
     color: #1E90FF;
 }
 .marquee{
@@ -263,13 +269,13 @@ footer > div{
     text-align: left;
 }
 .section1 .section2 .section3 {
-    width: 33%;
+    max-width: 33%;
 
 }
 .section1 {
     padding: 20px 0px 0px 0px ;
     margin:20px;
-    
+
 }
 .section3 > i{
     color: #fff;
@@ -290,4 +296,10 @@ footer > div{
 }
 .section3{
     flex: 3;
+}
+.brand{
+    background-color: #1E90FF !important;
+    max-width: 100%;
+    text-align: left;
+    padding:20px
 }
