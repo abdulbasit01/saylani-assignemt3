@@ -9,7 +9,7 @@
    
 </head>
 <body>
-    <div class="main">
+    <div class="main" id="top">
         <div class="nav1">
             <div class="social">
                 <i class="fab fa-facebook-f"></i>
@@ -34,18 +34,49 @@
         </div>
         <div class="menu">
             <span class="active">Home</span>
-            <span >About <i class="fas fa-caret-down"></i>
+            <span >About 
+                <i class="fas fa-caret-down"></i>
+                <div class="submenu">
+                    <ul>
+                        <li>
+                                Introduction
+                        </li>
+                        <li>
+                                chairman MEssage
+                            
+                        </li>
+                        <li>
+                                Saylani annual report
+                        </li>
+                    </ul>
+                </div>
             </span>
             <span class="services-saylani">
                 Saylani Services <i class="fas fa-caret-down drop-"></i>
             </span>
-            <span>Future Project <i class="fas fa-caret-down"></i> </span>
+            <span>Future Project
+                 <i class="fas fa-caret-down"></i> 
+                 <div class="submenu">
+                     <ul>
+                         <li> 
+                                saylani university
+
+                         </li>
+                         <li>
+                                saylaniy city
+                         </li>
+                     </ul>
+                 </div>
+            </span>
             <span>Media</span>
             <span>News</span>
             <span>Donation <i class="fas fa-caret-down"></i></span>
         </div>
-        <i class="fas fa-grip-lines"></i>
-
+        <label for="check" id="label">
+            <input type="checkbox" name="" id="check">
+            <img src="./assest/menu.png" width='20' height="20" alt="" onclick="myFunction()">
+            
+        </label>
     </div>
     <hr>
     <div class="slider">
@@ -54,8 +85,8 @@
         <i class="fas fa-circle"></i>
         <i class="fas fa-circle" ></i>
     </div>
-    <div class="marquee">
-        <marquee behavior="" direction="">
+    <div class="marquee" >
+        <marquee behavior="" direction="" onmouseover="this.stop()" onmouseout="this.start()">
             <span style="color: #008000;">(News-1 Dated:15-06-2019)</span>  PIAICNext Phase Admission in Islamabad And Faisalabad" . More Details    <span style="color: green;">(News-2 Dated:15-05-2019)</span>  Saylani Welfare Announced "Donation Application" . More Details    <span style="color: green;">(News-3 Dated:07-05-2019)</span>  Alhamdulillah Saylani Organized 200+ Locations For Iftar And Sehri In This Holy Month . More Details    <span style="color: green;">(News-4 Dated:08-03-2019)</span>  Saylani Welfare Distributing Ration & Clothes to affected people of Balochistan. More Details    <span style="color: green;">(News-5 Dated:25-02-2019)</span>  PIAIC Entrance Exam Merit Ranking List Announced. More Details   <span style="color: green;">(News-6 Dated:23-02-2019)</span>  President of Pakistan (Dr. Arif Alvi) Visited Saylani Welfare International Trust HeadOffice Karachi. More Details    <span style="color: green;">(News-7 Dated:19-02-2019)</span>  Dr Jamil Ahmed (Additional Inspector General of Police) & Atiqmir Visit Saylani Welfare International Trust, Saylani Mass I.T. Training. More Details   
         </marquee>
 
@@ -116,6 +147,11 @@
             <h1>180,000</h1>
             <h4>EDUCATION  <span style="color: green;">(MONTHLY)</span> </h4>
         </div>
+    </div>
+    <div> 
+        <a href="#top" class="gotothetop">
+            <i class="far fa-arrow-alt-circle-up"></i>
+        </a>
     </div>
     <div class="our-serves">
         <h1><span style="color: blue;">WHAT WE </span><span style="color: green;">ARE DOING</span>  </h1>
@@ -276,5 +312,7 @@
             Copyright © 2020 Saylani Welfare
         </h4>
     </div>
+    
 </body>
+<script src="js/index.js"></script>
 </html>

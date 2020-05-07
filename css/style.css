@@ -57,10 +57,23 @@
 }
 .section{
     display:flex;
-    background-color: lemonchiffon;
+    background-color:lightcyan;
     max-width: 100%;
-}
+    width: 100%;
+    position: sticky;
+    top: 0%;
 
+}
+.gotothetop{
+    position: fixed;
+    bottom:0 ;
+    right: 5%;
+    color: lightcoral;
+    font-size: 32px;
+    font-weight: bolder;
+    padding: 20px;
+    margin: 10px;
+}
 .logo{
     flex: 1;
 }
@@ -84,15 +97,61 @@
     border-radius:30px;
 
 }
+.submenu{
+    display: none;
+}
+.section .menu span:hover .submenu{
+    display: block;
+    position: absolute;
+    flex-direction: column;
+    background-color: lavender;
+    margin-top: 10px;
+    align-content: flex-start;
 
+}
+#check{
+    display:none ;
+}
+label > img {
+    margin: 40px;
+    display: none;
+}
+.section .menu span:hover .submenu  ul {
+    display: block;
+    align-content: flex-start;
+    list-style-type: none;
+     margin-top: 10px;
+
+
+    
+
+}
+ul{
+    padding: 10px;
+}
+ul li{
+    margin-top: 20px;
+    border-bottom: 1px dashed green;
+}
+ul li:hover{
+    background-color: #1E90FF	;
+    padding: 10px;
+    margin: 10px;
+    border-radius:30px;
+}
+ul li:last-child{
+    border-bottom: none;
+}
+.section .menu span ul:hover .submenu  ul li{
+    width: 100px;
+    
+}
 .slider img {
     width: 100%;
     max-width: 100%;
-    margin-top: 70px;
 }
 .slider {
     text-align: center;
-    opacity: 0.9;
     color: #1E90FF;
 }
 .marquee{
@@ -125,7 +184,7 @@ section .content {
 section .content p{
     margin-top: 30px;
 }
-.section > i {
+.section > img {
     display: none;
 }
 .counters{

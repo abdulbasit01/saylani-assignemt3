@@ -38,12 +38,37 @@
         display: flex;
         flex-direction: row;
     }
+    .section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .section  img {
+        display: flex;  
+        cursor: pointer;
+    }
     .menu{
         display: none;
     }
-    .section > i {
-        display: inline-block;
-        margin: 20px;
+    .section .menu {
+        background-color: lightblue;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .marquee > marquee{
+        z-index: 0;
+    }
+    .section .menu span{
+       display: flex;
+       
+        
     }
 }
 @media screen and (max-width: 720px) {
